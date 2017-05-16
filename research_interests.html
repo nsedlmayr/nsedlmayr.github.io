@@ -1,9 +1,10 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+<script src="/lib/w3.js"></script>
   <head>
     <meta http-equiv="content-type" content="text/html;
       charset=windows-1252">
-    <title>Nicholas Sedlmayr</title>
+    <title>Nicholas Sedlmayr: Research</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" media="screen and
       (max-device-width: 480px)" href="mstyles.css">
@@ -11,17 +12,14 @@
   <body>
     <div id="mainbox">
       <div id="header"> &nbsp;Nicholas Sedlmayr </div>
-      <div id="menu">
-        <p><a href="index.html">Home</a><br>
-        </p>
-        <p><a href="https://condensedmattersblog.wordpress.com">Blog</a></p>
-        <p><a href="publications.html">Publications</a></p>
-        <p><a href="research_interests.html">Research Interests</a><br>
-        </p>
-        <p><a href="teaching.html">Teaching</a></p>
-        <p><a href="collaborators.html">Collaborators and Links</a></p>
-        <p><a href="cv.html">CV</a></p>
-      </div>
+
+            <div id="menu">
+            <div w3-include-html="menu.html"></div>
+            <script>
+            w3.includeHTML();
+            </script>
+            </div>
+
       <div id="main_title">Current Research Interests</div>
       <div class="content"> Below are some of the areas and questions
         that I am interested in. More information can be found by
@@ -88,7 +86,7 @@
         </ul>
       </div>
       <hr>
-      <div id="footer"> This page was written on 16/02/2017</div>
+      <div id="footer"> This page was written on 16/05/2017</div>
     </div>
   </body>
 </html>
