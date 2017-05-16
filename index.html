@@ -1,5 +1,6 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html>
+<script src="/lib/w3.js"></script>
   <head>
     <meta http-equiv="content-type" content="text/html;
       charset=windows-1252">
@@ -8,21 +9,18 @@
     <link rel="stylesheet" type="text/css" media="screen and
       (max-device-width: 480px)" href="mstyles.css">
   </head>
+
   <body>
     <div id="mainbox">
       <div id="header"> &nbsp;Nicholas Sedlmayr </div>
+
       <div id="menu">
-        <p><a href="index.html">Home</a>
-        </p>
-        <p><a href="https://condensedmattersblog.wordpress.com">Blog</a>
-        </p>
-        <p><a href="publications.html">Publications</a></p>
-        <p><a href="research_interests.html">Research Interests</a>
-        </p>
-        <p><a href="teaching.html">Teaching</a></p>
-        <p><a href="collaborators.html">Collaborators and Links</a></p>
-        <p><a href="cv.html">CV</a></p>
+      <div w3-include-html="menu.html"></div>
+      <script>
+      w3.includeHTML();
+      </script>
       </div>
+
       <div align="right"> <img src="Nick_K.jpg" alt="Me"
           style="position:relative; right:80px; top:30px;" width="300"></div><br><br>
       <br>
@@ -76,6 +74,8 @@
           href="http://www.th.ph.bham.ac.uk">Ph.D. in the Theory Group
           at The University of Birmingham, UK</a><br>
       </p>
+
+
       <hr>
       <div id="footer"> This page was written on 15/05/2017</div>
     </div>
