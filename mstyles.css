@@ -40,7 +40,7 @@ text-decoration:none;
 font-weight:bold;
 }
 #main_title {
-margin-left:185px;
+margin-left:30px;
 margin-right:30px;
 margin-top:30px;
 text-align:center;
@@ -56,14 +56,14 @@ text-align:center;
 
 .content {
 /*text-indent:25px;*/
-margin-left:185px;
+margin-left:30px;
 margin-top:5px;
 margin-right:30px;
 text-align:justify;
 font-family: arial;
 }
 .sub_title {
-margin-left:185px;
+margin-left:30px;
 margin-top:10px;
 text-align:left;
 font-family: arial;
@@ -71,7 +71,7 @@ font-size: 140%;
 font-weight:bold;
 }
 .sub_sub_title {
-margin-left:185px;
+margin-left:30px;
 margin-top:20px;
 margin-bottom:10px;
 text-align:left;
@@ -80,7 +80,7 @@ font-size: 120%;
 font-style:italic;
 }
 .s_content {
-margin-left:185px;
+margin-left:30px;
 margin-right:30px;
 text-align:center;
 font-family: arial;
@@ -88,7 +88,7 @@ font-size: 120%;
 font-weight:bold;
 }
 .pubs {
-margin-left:185px;
+margin-left:30px;
 margin-right:30px;
 text-align:left;
 font-family: arial;
@@ -104,7 +104,7 @@ font-family: arial;
 font-size: 90%;
 }
 .image_link {
-margin-left:185px;
+margin-left:30px;
 margin-right:30px;
 align:center;
 font-size: 80%;
