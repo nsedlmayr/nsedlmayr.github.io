@@ -1,10 +1,14 @@
-  /* Smartphone Portrait and Landscape */
-  @media only screen
+@media only screen
     and (min-device-width : 320px)
     and (max-device-width : 480px){
      .mobileHide {display: none;}
-     .mobileShow {display: inline;}
   }
+
+  @media only screen
+      and (min-device-width : 320px)
+      and (max-device-width : 480px){
+       .mobileShow {display: inline;}
+    }
 
 #header {
 width:930px;
