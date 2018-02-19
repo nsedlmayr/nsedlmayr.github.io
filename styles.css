@@ -4,10 +4,10 @@
      .mobileHide {display: none;}
   }
 
-  @media only screen
-      and (min-device-width : 480px){
-       .desktopHide {display: none;}
-    }
+@media only screen
+    and (min-device-width : 480px){
+     .desktopHide {display: none;}
+  }
 
 #header {
 width:930px;
