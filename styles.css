@@ -20,17 +20,6 @@
   }
 </style>
 
-<style type="text/css">
-  .desktopHide { display: inline; }
-
-  /* Smartphone Portrait and Landscape */
-  @media only screen
-  <!--  and (min-device-width : 320px)-->
-    and (min-device-width : 480px){
-     .desktopHide { display: none;}
-  }
-</style>
-
 #header {
 width:930px;
 float:left;
