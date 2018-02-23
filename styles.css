@@ -65,12 +65,18 @@ clear:both;
 text-align:center;
 }
 #container {
+  margin-left:185px;
+  margin-right:30px;
+  margin-top:30px;
   overflow: auto;
   -webkit-overflow-scrolling:
   touch;
   height: 500px;
 }
 #shortcontainer {
+  margin-left:185px;
+  margin-right:30px;
+  margin-top:30px;
   overflow: auto;
   -webkit-overflow-scrolling:
   touch;
