@@ -64,6 +64,18 @@ font-weight:bold;
 clear:both;
 text-align:center;
 }
+#container {
+  overflow: auto;
+  -webkit-overflow-scrolling:
+  touch;
+  height: 500px;
+}
+#shortcontainer {
+  overflow: auto;
+  -webkit-overflow-scrolling:
+  touch;
+  height: 272;
+}
 
 .content {
 /*text-indent:25px;*/
