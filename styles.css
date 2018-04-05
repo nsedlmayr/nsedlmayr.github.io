@@ -92,10 +92,11 @@ font-family: arial;
 .sub_title {
 margin-left:235px;
 margin-top:10px;
-text-align:center;
+text-align:left;
 font-family: arial;
 font-size: 140%;
 color:darkgrey;
+font-weight:bold;
 }
 .sub_sub_title {
 margin-left:235px;
