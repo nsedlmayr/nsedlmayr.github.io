@@ -16,7 +16,7 @@ border-style:none none solid none;
 border-width:2px;
 border-color:#B0C4DE;
 text-align:left;
-font-family: arial;
+font-family: helvetica;
 font-size: 180%;
 font-weight:bold;
 margin-top:8px;
@@ -41,7 +41,7 @@ border-style:none;
 border-width:2px;
 border-color:Blue;
 margin-top:5px;
-font-family: arial;
+font-family: helvetica;
 text-align:center;
 font-size: 130%;
 }
@@ -56,7 +56,7 @@ margin-right:30px;
 margin-top:30px;
 text-align:center;
 color:darkblue;
-font-family: arial;
+font-family: helvetica;
 font-size: 200%;
 font-weight:bold;
 }
@@ -87,13 +87,13 @@ margin-left:30px;
 margin-top:5px;
 margin-right:30px;
 text-align:justify;
-font-family: arial;
+font-family: helvetica;
 }
 .sub_title {
 margin-left:235px;
 margin-top:20px;
 text-align:left;
-font-family: arial;
+font-family: helvetica;
 font-size: 140%;
 font-weight:bold;
 }
@@ -102,7 +102,7 @@ margin-left:30px;
 margin-top:20px;
 margin-bottom:10px;
 text-align:left;
-font-family: arial;
+font-family: helvetica;
 font-size: 120%;
 font-style:italic;
 }
@@ -110,7 +110,7 @@ font-style:italic;
 margin-left:30px;
 margin-right:30px;
 text-align:center;
-font-family: arial;
+font-family: helvetica;
 font-size: 120%;
 font-weight:bold;
 }
@@ -118,16 +118,16 @@ font-weight:bold;
 margin-left:30px;
 margin-right:30px;
 text-align:left;
-font-family: arial;
+font-family: helvetica;
 }
 .pubs li a {
 text-align:left;
-font-family: arial;
+font-family: helvetica;
 font-size: 100%;
 }
 .pubs li i {
 text-align:left;
-font-family: arial;
+font-family: helvetica;
 font-size: 105%;
 }
 .image_link {
@@ -135,9 +135,10 @@ margin-left:30px;
 margin-right:30px;
 align:center;
 font-size: 80%;
+font-family: helvetica;
 font-style: italic;
-
 }
+
 .image_link a {
 text-decoration:none;
 }
@@ -149,7 +150,7 @@ margin-left:10px;
 margin-right:10px;
 float:right;
 align:center;
-font-family: arial;
+font-family: helvetica;
 font-size: 80%;
 font-style: italic;
 text-align:justify;
@@ -162,7 +163,7 @@ margin-left:10px;
 margin-right:10px;
 float:left;
 align:center;
-font-family: arial;
+font-family: helvetica;
 font-size: 80%;
 font-style: italic;
 text-align:justify;
@@ -176,7 +177,7 @@ margin-right:10px;
 float:right;
 align:center;
 text-align:justify;
-font-family: arial;
+font-family: helvetica;
 font-size: 80%;
 font-style: italic;
 }

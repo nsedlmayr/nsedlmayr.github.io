@@ -135,9 +135,10 @@ margin-left:235px;
 margin-right:30px;
 align:center;
 font-size: 80%;
+font-family: helvetica;
 font-style: italic;
-
 }
+
 .image_link a {
 text-decoration:none;
 }
