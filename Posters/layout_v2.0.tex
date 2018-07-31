@@ -23,11 +23,12 @@
 \definecolor{maintextcolor}{RGB}{54 69 79}% main text
 \definecolor{headertextcolor}{RGB}{255 255 255}% header text
 \definecolor{sectiontitles}{RGB}{10 10 10}% section titles
-\definecolor{framecolor}{RGB}{\ifcase\colscheme
-	76 162 218
+%\definecolor{framecolor}{RGB}{\ifcase\colscheme 76 162 218 \else 154 169 179 \fi}% frames
+\ifcase\colscheme
+\definecolor{framecolor}{RGB}{76 162 218}
 \else
-	154 169 179
-\fi}% frames
+\definecolor{framecolor}{RGB}{154 169 179}
+\fi% frames
 
 % Additional colours
 \definecolor{przred}{RGB}{165 31 31}
