@@ -1,0 +1,153 @@
+%% Created by Nicholas Sedlmayr, ndsedlmayr@gmail.com, last changed 16/04/2019
+
+\usepackage{fancybox}
+\usepackage[dvips]{epsfig}
+\usepackage{amsfonts,amssymb,amsmath,bm}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{overpic}
+\usepackage{nicefrac}
+\usepackage{tikz}
+\usepackage{enumitem}
+\usetikzlibrary{arrows,shapes}
+\bibliographystyle{ieeetr}
+\renewcommand\refname{}
+
+\setitemize[0]{leftmargin=2.5cm,partopsep=1cm}
+
+% Colours
+\definecolor{equationbox}{RGB}{225 225 225}% background of equation box
+\definecolor{lightfill}{RGB}{255 255 255}% background of boxes
+\definecolor{lightfillprz}{RGB}{225 225 225}% background of PRz box
+\definecolor{maintextcolor}{RGB}{54 69 79}% main text
+\definecolor{headertextcolor}{RGB}{255 255 255}% header text
+\definecolor{sectiontitles}{RGB}{10 10 10}% section titles
+\ifcase\colscheme
+\definecolor{framecolor}{RGB}{76 162 218}
+\or
+\definecolor{framecolor}{RGB}{154 169 179}
+\or
+\definecolor{framecolor}{RGB}{57 255 20}
+\else
+\definecolor{framecolor}{RGB}{154 169 179}
+\fi% frames
+\ifcase\colscheme
+\definecolor{BGcolour}{RGB}{66 66 66}
+\or
+\definecolor{BGcolour}{RGB}{66 66 66}
+\or
+\definecolor{BGcolour}{RGB}{166 166 166}
+\else
+\definecolor{BGcolour}{RGB}{117 218 255}
+\fi% background colour
+
+% Additional colours
+\definecolor{przred}{RGB}{165 31 31}
+\definecolor{przblue}{RGB}{0 0 153}
+\definecolor{przgreen}{RGB}{0 102 0}
+
+% Some useful mathematics definitions
+\newcommand{\im}{\mathrm{i}}
+\newcommand{\e}{\textrm{e}}
+\newcommand{\ud}{\textrm{d}}
+\DeclareMathOperator{\hside}{\Theta}
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\Arg}{Arg}
+\DeclareMathOperator{\Det}{Det}
+\DeclareMathOperator{\Tr}{Tr}
+\DeclareMathOperator{\tr}{Tr}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%		Page                                       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\def\waterm@rk
+	{\vbox to \paperheight{\vss \hsize=\paperwidth
+		\leftskip=0pt plus 1fil \rightskip=\leftskip \parfillskip=\z@
+		\noindent \watermark \par\vss}
+		}
+	\def\@oddhead
+		{
+  		\hbox to 0pt{\kern-1.07in \kern-\hoffset \kern-\oddsidemargin
+  		\vbox to 0pt{\kern-1in \kern-\voffset \kern-\topmargin
+ 	 	\kern-\headheight \vbox to \paperheight{\vss \hsize=\paperwidth
+  		\leftskip=0pt plus 1fill \rightskip=\leftskip \parfillskip=0pt%
+  		\noindent
+		\watermark
+		\par \vss}\vss}\hss}
+  		\hfil
+  		}
+	\let\@oddfoot\relax
+\makeatother
+\pagecolor{BGcolour}
+	\newcommand*{\watermark}{\vfill\hspace{1cm}
+		\includegraphics[height=5cm]{\extraslocation/wmifs_ang.pdf}\hspace{4cm}
+		\includegraphics[height=9cm]{\extraslocation/skyline.pdf}\\\vspace{0.1cm}
+		}
+		\setlength{\parindent}{0.4cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%		New Commands                               %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\amble}{
+	\begin{picture}(800,280)(0,-170)
+			\put(1820,-240){\includegraphics[height=11cm,angle=0]{\extraslocation/prz_logo_background.pdf}}
+			\put(0,0){\begin{minipage}{63cm}
+			\vspace*{12.0cm}\color{headertextcolor}{
+			{\fontsize{100}{120}\sc\postertitle\\[9.5mm]}
+			{\Large\underline{\mainauthor}${}^\dagger$, \secondauthor
+			}\\[7.5mm]
+			\it${}^\dagger$\mainaffiliation\\
+			\otheraffiliations\\
+			\underline{\emailaddress}}
+			\end{minipage}}
+	\end{picture}
+	\vspace{6cm}
+	\color{maintextcolor}
+			}
+
+\newcommand{\mainbox}[2][2]{
+	\psframebox[linewidth=0.5mm,linecolor=gray,framearc=0.0000055,
+	framesep=0cm]{\noindent
+	\psframebox[linewidth=3.5mm,fillstyle=solid,
+	fillcolor=lightfill,linecolor=framecolor,framearc=0.0,
+	framesep=1cm]{\begin{minipage}{37.5cm}
+ 	\begin{center}
+	\parbox{0.8\textwidth}{\begin{center}{\huge \textcolor{sectiontitles}{#1}}\end{center}}
+	\end{center}\vspace{0.75cm}
+	#2
+	\end{minipage}}}\\\vspace{0.25cm}\\
+	}
+
+\newcommand{\equationbox}[1]{
+	\vspace{0.5cm}\begin{center}
+	$\;
+	\tikz[baseline]{
+         \node[fill=equationbox,anchor=base](t1){$\displaystyle
+            {#1}
+         $};}$
+	\end{center}\vspace{0.5cm}
+	}
+
+\newcommand{\maincommand}[1]{
+			\setlength{\columnsep}{-2cm}
+			\begin{multicols}{2}
+			\setlength{\columnsep}{1cm}
+			{\ifcase\abstracttitle
+				{\mainbox[]{\vspace{-2cm}\abstracttext}}
+			\else
+				{\mainbox[Abstract]{\abstracttext}}
+			\fi}
+				#1
+				{\ifcase\reftitle
+					{\mainbox[]{\vspace{-5.0cm}{\tiny\bibliography{\biblink}}}}
+				\else
+					{\mainbox[References]{\vspace{-3.0cm}{\tiny\bibliography{\biblink}}}}
+				\fi}
+			\vfill
+			\end{multicols}
+							}
