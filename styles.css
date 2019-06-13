@@ -81,8 +81,8 @@ margin-right:30px;
   height: 272px;
 }
 #shortcontainercentre {
-align:center;
-margin-left:30px;
+align-content:center;
+margin-left:235px;
 margin-top:5px;
 margin-right:30px;
   overflow: auto;
