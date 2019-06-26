@@ -6,3 +6,34 @@
   <p><a href="collaborators.html">Collaborators and Links</a></p>
   <p><a href="posters.html">Poster Template</a></p>
   <p><a href="https://condensedmattersblog.wordpress.com">Blog</a></p>
+
+  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">List of Conferences</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="Conferences/conferences_2019.html">2019</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+  <p><a href="conferences.html">List of Conferences</a></p>
