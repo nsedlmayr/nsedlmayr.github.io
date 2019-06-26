@@ -208,7 +208,6 @@ text-decoration:none;
   cursor: pointer;
   font-family: palatino;
   text-align:right;
-  font-size: 130%;
   font-weight: bold;
 }
 
@@ -232,7 +231,6 @@ text-decoration:none;
   z-index: 1;
   font-family: palatino;
   text-align:right;
-  font-size: 130%;
 }
 
 .dropdown-content a {
@@ -242,7 +240,6 @@ text-decoration:none;
   display: block;
   font-family: palatino;
   text-align:right;
-  font-size: 100%;
 }
 
 .dropdown a:hover {background-color: #ddd;}
