@@ -203,8 +203,7 @@ text-decoration:none;
 .dropbtn {
   background-color: #f1f1f1;
   color: darkgray;
-  padding: 16px;
-  font-size: 130%;
+  padding: 4px;
   border: none;
   cursor: pointer;
   font-family: palatino;
