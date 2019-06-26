@@ -209,6 +209,7 @@ text-decoration:none;
   font-family: palatino;
   text-align:right;
   font-weight: bold;
+  font-size: 130%;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -231,7 +232,6 @@ text-decoration:none;
   z-index: 1;
   font-family: palatino;
   text-align:right;
-  font-size: 130%;
 }
 
 .dropdown-content a {
@@ -241,7 +241,6 @@ text-decoration:none;
   display: block;
   font-family: palatino;
   text-align:right;
-  font-size: 130%;
 }
 
 .dropdown a:hover {background-color: #ddd;}
