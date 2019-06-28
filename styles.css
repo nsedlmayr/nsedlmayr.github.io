@@ -201,7 +201,7 @@ text-decoration:none;
 }
 
 .dropbtn {
-  background-color: #f1f1f1;
+  background-color: #ddd;
   color: darkgray;
   padding: 4px;
   border: none;
@@ -243,6 +243,9 @@ text-decoration:none;
   text-align:right;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+  background-color: #ddd;
+  text-decoration: underline
+}
 
 .show {display: block;}
