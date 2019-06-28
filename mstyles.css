@@ -200,7 +200,7 @@ text-decoration:none;
 }
 
 .dropbtn {
-  background-color: #ddd;
+  background-color: white;
   color: darkgray;
   padding: 4px;
   border: none;
@@ -213,6 +213,7 @@ text-decoration:none;
 
 .dropbtn:hover, .dropbtn:focus {
   background-color: white;
+  text-decoration: underline;
 }
 
 .dropdown {
@@ -244,7 +245,7 @@ text-decoration:none;
 
 .dropdown a:hover {
   background-color: #ddd;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .show {display: block;}
