@@ -200,7 +200,7 @@ text-decoration:none;
 }
 
 .dropbtn {
-  background-color: #f1f1f1;
+  background-color: #ddd;
   color: darkgray;
   padding: 4px;
   border: none;
@@ -208,7 +208,7 @@ text-decoration:none;
   font-family: palatino;
   text-align:right;
   font-weight: bold;
-  font-size: 130%;
+  font-size: 100%;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -242,6 +242,9 @@ text-decoration:none;
   text-align:right;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {
+  background-color: #ddd;
+  text-decoration: underline
+}
 
 .show {display: block;}
