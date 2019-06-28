@@ -202,11 +202,11 @@ text-decoration:none;
 .dropbtn {
   background-color: white;
   color: darkgray;
-  padding: 4px;
+  padding: 0px;
   border: none;
   cursor: pointer;
   font-family: palatino;
-  text-align:center;
+  text-align:right;
   font-weight: bold;
   font-size: 100%;
 }
