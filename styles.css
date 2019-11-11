@@ -10,7 +10,7 @@
   }
 
 #header {
-width:930px;
+width:1135px;
 float:left;
 border-style:none none solid none;
 border-width:2px;
@@ -24,7 +24,7 @@ margin-bottom:30px;
 color:#000000;
 }
 #mainbox {
-width:930px;
+width:1135px;
 border-style:solid;
 border-width:2px;
 border-color:#B0C4DE;
@@ -46,6 +46,23 @@ text-align:right;
 font-size: 130%;
 }
 #menu p a {
+color:darkgrey;
+text-decoration:none;
+font-weight:bold;
+}
+#menuright {
+width:205px;
+float:right;
+border-style:none;
+border-width:2px;
+border-color:Blue;
+margin-top:5px;
+margin-right:5px;
+font-family: palatino;
+text-align:right;
+font-size: 130%;
+}
+#menuright p a {
 color:darkgrey;
 text-decoration:none;
 font-weight:bold;
@@ -94,13 +111,14 @@ margin-right:30px;
 /*text-indent:25px;*/
 margin-left:235px;
 margin-top:5px;
-margin-right:30px;
+margin-right:235px;
 text-align:justify;
 font-family: palatino;
 }
 .sub_title {
 margin-left:235px;
 margin-top:20px;
+margin-right:235px;
 text-align:center;
 font-family: verdana;
 font-size: 140%;
@@ -109,6 +127,7 @@ font-weight:bold;
 .sub_sub_title {
 margin-left:235px;
 margin-top:20px;
+margin-right:235px;
 margin-bottom:10px;
 text-align:left;
 font-family: verdana;
@@ -118,6 +137,7 @@ font-style:italic;
 .s_content {
 margin-left:235px;
 margin-right:30px;
+margin-right:235px;
 text-align:center;
 font-family: palatino;
 font-size: 120%;
@@ -126,6 +146,7 @@ font-weight:bold;
 .pubs {
 margin-left:235px;
 margin-right:30px;
+margin-right:235px;
 text-align:left;
 font-family: palatino;
 font-size: 95%;
@@ -140,7 +161,7 @@ font-family: palatino;
 }
 .image_link {
 margin-left:235px;
-margin-right:30px;
+margin-right:235px;
 align:center;
 font-size: 80%;
 font-family: palatino;
