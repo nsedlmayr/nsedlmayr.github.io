@@ -12,7 +12,7 @@
 #header {
 width:1135px;
 float:left;
-border-style:none none solid none;
+border-style:none none none none;
 border-width:2px;
 border-color:#B0C4DE;
 text-align:left;
@@ -25,7 +25,7 @@ color:#000000;
 }
 #mainbox {
 width:1135px;
-border-style:solid;
+border-style:none none none none;
 border-width:2px;
 border-color:#B0C4DE;
 margin-left:auto;
