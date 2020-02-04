@@ -174,32 +174,6 @@ font-style: italic;
 text-decoration:none;
 }
 
-.image_link_right {
-width:310px;
-margin-top:15px;
-margin-bottom:10px;
-margin-left:10px;
-margin-right:10px;
-float:right;
-align:center;
-font-family: palatino;
-font-size: 80%;
-font-style: italic;
-text-align:justify;
-}
-.image_link_left {
-width:310px;
-margin-top:15px;
-margin-bottom:10px;
-margin-left:10px;
-margin-right:10px;
-float:left;
-align:center;
-font-family: palatino;
-font-size: 80%;
-font-style: italic;
-text-align:justify;
-}
 .image_link_right_narrow {
 width:210px;
 margin-top:15px;
