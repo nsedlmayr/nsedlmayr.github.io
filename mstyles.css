@@ -17,6 +17,7 @@ border-width:2px;
 border-color:#B0C4DE;
 text-align:left;
 font-family: palatino;
+color:darkgrey;
 font-size: 180%;
 font-weight:bold;
 margin-top:8px;
@@ -24,8 +25,9 @@ margin-bottom:30px;
 color:#000000;
 }
 #header a {
-text-decoration:none;
-font-weight:bold;
+  color:darkgrey;
+  text-decoration:none;
+  font-weight:bold;
 }
 #mainbox {
 width:880px;
