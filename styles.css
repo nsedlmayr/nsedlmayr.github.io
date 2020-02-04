@@ -24,8 +24,9 @@ margin-bottom:30px;
 color:#000000;
 }
 #header a {
-text-decoration:none;
-font-weight:bold;
+  color:darkgrey;
+  text-decoration:none;
+  font-weight:bold;
 }
 #mainbox {
 width:1135px;
