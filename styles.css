@@ -251,7 +251,7 @@ font-family: palatino;
   font-size:100%;
 }
 
-.dropbtn-table:hover, .dropbtn:focus {
+.dropbtn-table:hover, .dropbtn-table:focus {
 /*  background-color: white;*/
   background-color: #33475b;
   text-decoration: underline;
