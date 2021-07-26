@@ -68,10 +68,10 @@ background-color: white;
 
 #menuright {
 width:205px;
-float:right;
-border-style:none;
+float:left;
+/*border-style:none;
 border-width:2px;
-border-color:Blue;
+border-color:Blue;*/
 margin-top:5px;
 margin-right:5px;
 font-family: palatino;
