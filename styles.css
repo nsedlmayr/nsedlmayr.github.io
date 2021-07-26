@@ -241,7 +241,7 @@ font-family: palatino;
 
 .dropbtn_table{
   background-color: lightgray;
-  color: darkgray;
+  color: black;
   padding: 0px;
   border: none;
   cursor: pointer;
@@ -261,7 +261,7 @@ font-family: palatino;
   display: none;
   color: lightgray;
   position: absolute;
-  ackground-color: #white;
+  background-color: #white;
   /*bbackground-color: #33475b;*/
   min-width: 300px;
   overflow: auto;
