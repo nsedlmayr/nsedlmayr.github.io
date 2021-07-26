@@ -222,20 +222,6 @@ font-family: palatino;
   text-align:right;
 }
 
-.dropdown-content-table {
-  display: none;
-  color: lightgray;
-  position: absolute;
-  ackground-color: #white;
-  /*bbackground-color: #33475b;*/
-  min-width: 300px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  font-family: palatino;
-  text-align:right;
-}
-
 .dropdown-content a {
   color: lightgray;
   padding: 4px 4px;
@@ -252,6 +238,32 @@ font-family: palatino;
 }
 
 .show {display: block;}
+
+.dropbtn {
+  background-color: inherit;
+  color: darkgray;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  font-family: palatino;
+  text-align:right;
+  font-weight: bold;
+  font-size:100%;
+}
+
+.dropdown-content-table {
+  display: none;
+  color: lightgray;
+  position: absolute;
+  ackground-color: #white;
+  /*bbackground-color: #33475b;*/
+  min-width: 300px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-family: palatino;
+  text-align:right;
+}
 
 table {
   font-family: palatino;
