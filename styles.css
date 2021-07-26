@@ -239,7 +239,7 @@ font-family: palatino;
 
 .show {display: block;}
 
-.dropbtn-table{
+.dropbtn_table{
   background-color: lightgray;
   color: darkgray;
   padding: 0px;
@@ -251,13 +251,13 @@ font-family: palatino;
   font-size:100%;
 }
 
-.dropbtn-table:hover, .dropbtn-table:focus {
+.dropbtn_table:hover, .dropbtn_table:focus {
 /*  background-color: white;*/
   background-color: #33475b;
   text-decoration: underline;
 }
 
-.dropdown-content-table {
+.dropdown_table-content {
   display: none;
   color: lightgray;
   position: absolute;
