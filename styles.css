@@ -239,9 +239,9 @@ font-family: palatino;
 table {
   font-family: palatino;
   border-collapse: collapse;
-  margin-left:235px;
+  margin-left:0px;
   margin-top:5px;
-  margin-right:235px;
+  margin-right:auto;
 }
 
 td, th {
