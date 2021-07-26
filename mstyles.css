@@ -150,8 +150,8 @@ font-family: palatino;
 }
 
 .dropbtn {
-  background-color: white;
-  color: darkgray;
+background-color: #33475b;
+  color: lightgray;
   padding: 0px;
   border: none;
   cursor: pointer;
@@ -162,7 +162,7 @@ font-family: palatino;
 }
 
 .dropbtn:hover, .dropbtn:focus {
-  background-color: white;
+/*  background-color: white;*/
   text-decoration: underline;
 }
 
@@ -173,7 +173,7 @@ font-family: palatino;
 
 .dropdown-content {
   display: none;
-  color: darkgray;
+  color: lightgray;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 105px;
@@ -185,7 +185,7 @@ font-family: palatino;
 }
 
 .dropdown-content a {
-  color: darkgray;
+  color: lightgray;
   padding: 4px 4px;
   text-decoration: none;
   display: block;

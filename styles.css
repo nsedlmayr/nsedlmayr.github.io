@@ -202,7 +202,7 @@ font-family: palatino;
 
 .dropdown-content {
   display: none;
-  /*color: darkgray;*/
+  color: lightgray;
   position: absolute;
   /*background-color: #f1f1f1;*/
   min-width: 105px;
@@ -214,7 +214,7 @@ font-family: palatino;
 }
 
 .dropdown-content a {
-  /*color: darkgray;*/
+  color: lightgray;
   padding: 4px 4px;
   text-decoration: none;
   display: block;
