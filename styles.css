@@ -226,6 +226,7 @@ font-family: palatino;
 
 .dropdown a:hover {
   background-color: #ddd;
+  color: darkgray;
   text-decoration: underline;
 }
 
