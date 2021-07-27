@@ -224,11 +224,6 @@ font-family: palatino;
 
 .show {display: block;}
 
-.dropdown_table {
-  position: relative;
-  display: inline-block;
-}
-
 
 table {
   font-family: palatino;
