@@ -157,7 +157,7 @@ font-family: palatino;
 
 .dropbtn {
 background-color: #33475b;
-  color: lightgray;
+  color: white;
   padding: 0px;
   border: none;
   cursor: pointer;
@@ -179,7 +179,7 @@ background-color: #33475b;
 
 .dropdown-content {
   display: none;
-  color: lightgray;
+  color: white;
   position: absolute;
   background-color: #33475b;
   min-width: 105px;
@@ -191,7 +191,7 @@ background-color: #33475b;
 }
 
 .dropdown-content a {
-  color: lightgray;
+  color: white;
   padding: 4px 4px;
   text-decoration: none;
   display: block;
