@@ -230,7 +230,7 @@ font-family: palatino;
 }
 
 .dropbtn_table{
-  background-color: lightgray;
+  /* background-color: lightgray; */
   color: black;
   padding: 0px;
   border: none;
