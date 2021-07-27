@@ -244,6 +244,11 @@ font-family: palatino;
 
 .show {display: block;}
 
+.dropdown_table {
+  position: relative;
+  display: inline-block;
+}
+
 .dropbtn_table{
   background-color: lightgray;
   color: black;
