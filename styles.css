@@ -10,7 +10,7 @@
   }
 
 #header {
-background-color: #cdeefd;
+background-color: #33475b;
 /*width:1135px;*/
 /*float:center;*/
 /*border-style:none none none none;*/
@@ -33,7 +33,6 @@ padding: 50px;
 }
 
 #menu {
-/*background-color: #33475b;*/
 background-color: ;
 width:200px;
 float:left;
@@ -191,7 +190,7 @@ font-family: palatino;
 }
 
 .dropbtn {
-  background-color: #cdeefd;
+  background-color: #33475b;
   color: white;
   padding: 0px;
   border: none;
@@ -204,7 +203,7 @@ font-family: palatino;
 
 .dropbtn:hover, .dropbtn:focus {
 /*  background-color: white;*/
-  background-color: #cdeefd;
+  background-color: #33475b;
   text-decoration: underline;
 }
 
@@ -218,7 +217,7 @@ font-family: palatino;
   color: white;
   position: absolute;
   /*background-color: #f1f1f1;*/
-  background-color: #cdeefd;
+  background-color: #33475b;
   min-width: 255px;
   overflow: auto;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
