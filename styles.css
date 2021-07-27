@@ -112,23 +112,6 @@ margin-bottom: -35px;
   -webkit-overflow-scrolling: touch;
   height: 500px;
 }
-#shortcontainer {
-margin-left:235px;
-margin-top:5px;
-margin-right:235px;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  height: 272px;
-}
-#shortcontainercentre {
-align:center;
-margin-left:235px;
-margin-top:5px;
-margin-right:235px;
-  overflow: auto;
-  -webkit-overflow-scrolling: touch;
-  height: 272px;
-}
 
 .content {
 /*text-indent:25px;*/
