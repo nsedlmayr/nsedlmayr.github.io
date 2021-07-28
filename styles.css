@@ -224,39 +224,6 @@ font-family: palatino;
 
 .show {display: block;}
 
-.dropbtn_table {
-  /* background-color: #33475b; */
-  color: black;
-  padding: 0px;
-  border: none;
-  cursor: pointer;
-  font-family: palatino;
-  text-align:right;
-  /* font-weight: bold; */
-  font-size:100%;
-}
-
-.dropbtn_table:hover, .dropbtn_table:focus {
-/*  background-color: white;*/
-  /* background-color: #33475b; */
-  text-decoration: underline;
-}
-
-.dropdown_table-content {
-  display: none;
-  color: white;
-  position: absolute;
-  /*background-color: #f1f1f1;*/
-  /* background-color:  #33475b; */
-  min-width: 340px;
-  overflow: auto;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-  font-family: palatino;
-  text-align:right;
-}
-
-
 table {
   font-family: palatino;
   border-collapse: collapse;
