@@ -165,9 +165,8 @@ font-size: 95%;
 text-align:left;
 font-family: palatino;
 }
-.pubs li i {
-text-align:left;
-font-family: palatino;
+.abstract {
+font-size:60%;
 }
 
 .dropbtn {
