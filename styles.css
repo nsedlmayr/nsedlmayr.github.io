@@ -85,7 +85,10 @@ font-size: 130%;
 #menuright p a {
 color:darkgrey;
 text-decoration:none;
-font-weight:bold;
+text-align:justify;
+font-family: garamond;
+margin-left:2.5;
+font-size: 95%;
 }
 
 #main_title {
@@ -164,9 +167,6 @@ font-size: 95%;
 .pubs li a {
 text-align:left;
 font-family: garamond;
-}
-.abstract {
-font-size:60%;
 }
 
 .dropbtn {
