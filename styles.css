@@ -34,6 +34,11 @@ height: 100px
   font-weight:bold;
 }
 
+#header2 a {
+  color:lightgrey;
+  text-decoration:none;
+}
+
 #menu {
 background-color: ;
 width:200px;
