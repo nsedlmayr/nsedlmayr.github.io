@@ -23,7 +23,10 @@ color:lightgrey;
 /*font-weight:bold;*/
 /*margin-top:30px;*/
 /*margin-bottom:30px;*/
-padding: 50px;
+/* padding: 50px; */
+margin-top:50px;
+margin-left:50px;
+height: 100px
 }
 #header a {
   color:white;
