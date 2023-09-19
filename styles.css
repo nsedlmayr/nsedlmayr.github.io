@@ -60,7 +60,7 @@ font-weight:bold;
 background-color: #33475b;
 width:200px;
 float:right;
-height: 100%;
+height: 120%;
 /*border-style:none;
 border-width:2px;
 border-color:Blue;
@@ -105,8 +105,9 @@ float:right;
 /*border-style:none;
 border-width:2px;
 border-color:Blue;
-margin-top:5px;
-margin-right:5px;*/
+margin-top:5px;*/
+margin-left:5px;
+margin-right:5px;
 background-color: white;
 font-family: garamond;
 text-align:center;
